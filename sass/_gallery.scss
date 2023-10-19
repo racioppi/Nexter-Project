@@ -8,6 +8,18 @@
   gap: 1.5rem;
   padding: 1.5rem;
 
+  //My call
+  @media only screen and (max-width: $bp-medium) {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  //My call
+  @media only screen and (max-width: $bp-small) {
+    gap: 0.8rem;
+    padding: 0.8rem;
+  }
+
   &__item {
     &--1 {
       grid-row: 1 / span 2;

@@ -6,8 +6,10 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
 
-  // My call (just like in features)
-  align-items: start;
+  //My call
+  @media only screen and (max-width: $bp-small) {
+    margin: 10rem 0;
+  }
 }
 
 .home {
